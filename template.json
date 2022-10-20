@@ -1,0 +1,239 @@
+{
+  "Actor": {
+    "types": ["character", "npc", "party", "home", "hex"],
+    "templates": {
+      "person": {
+        "hits": {
+          "value": 1
+        },
+        "resolve": {
+          "value": 48,
+          "max": 960
+        },
+        "colors": {
+          "red": {
+            "value": "d4"
+          },
+          "orange": {
+            "value": "d4"
+          },
+          "brown": {
+            "value": "d4"
+          },
+          "yellow": {
+            "value": "d4"
+          },
+          "lime": {
+            "value": "d4"
+          },
+          "green": {
+            "value": "d4"
+          },
+          "teal": {
+            "value": "d4"
+          },
+          "cyan": {
+            "value": "d4"
+          },
+          "blue": {
+            "value": "d4"
+          },
+          "violet": {
+            "value": "d4"
+          },
+          "purple": {
+            "value": "d4"
+          },
+          "pink": {
+            "value": "d4"
+          }
+        },
+        "saves": {
+          "soul": "d4",
+          "mind": "d4",
+          "meat": "d4"
+        },
+        "speed": {
+          "value": 3,
+          "min": 0,
+          "max": 24
+        },
+        "carry-weight": {
+          "value": 0,
+          "max": 12
+        },
+        "aspects": {
+          "high-concept": "",
+          "trouble": "",
+          "kin": "",
+          "upbringing": "",
+          "culture": ""
+        },
+        "pods": {
+          "d4": {
+            "value": 0
+          },
+          "d6": {
+            "value": 0
+          },
+          "d8": {
+            "value": 0
+          },
+          "d10": {
+            "value": 0
+          },
+          "d12": {
+            "value": 0
+          },
+          "d20": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "character": {
+      "templates": ["person"],
+      "description": {
+        "level": "dim",
+        "kin": "meat sack",
+        "class": "radiant"
+      },
+      "arc-points": {
+        "primary": {
+          "level": "dim",
+          "value": 0
+        },
+        "secondary": {
+          "level": "dim",
+          "value": 0
+        },
+        "tertiary": {
+          "level": "dim",
+          "value": 0
+        },
+        "luck": {
+          "level": "dim",
+          "value": 0
+        }
+      },
+      "wounds": {
+        "major": "",
+        "mortal": ""
+      },
+      "party-aspects": {
+        "1": "",
+        "2": "",
+        "3": ""
+      },
+      "drives": {
+        "short-term": {
+          "goal": "",
+          "level": "dim"
+        },
+        "medium-term": {
+          "goal": "",
+          "level": "fulgent"
+        },
+        "long-term": {
+          "goal": "",
+          "level": "resplendent"
+        }
+      }
+    },
+    "npc": {
+      "templates": ["person"],
+      "description": {
+        "info": "",
+        "location": "",
+        "home": "",
+        "accent": "",
+        "disposition": "",
+        "quirks": "",
+        "appearance": "",
+        "hooks": "",
+        "services": ""
+      }
+    },
+    "party": {
+      "members": [],
+      "party-aspects": {
+        "aspects": [],
+        "quests": [],
+        "relationships": [],
+        "memories": []
+      },
+      "encumbrance": {
+        "current": {
+          "value": 0,
+          "max": 1000
+        }
+      },
+      "inventory": {
+        "consumables": {
+          "dim": 0,
+          "lucent": 0,
+          "bright": 0,
+          "fulgent": 0,
+          "brilliant": 0,
+          "resplendent": 0
+        },
+        "materials": {
+          "dim": 0,
+          "lucent": 0,
+          "bright": 0,
+          "fulgent": 0,
+          "brilliant": 0,
+          "resplendent": 0
+        },
+        "currency": {
+          "dim": 0,
+          "lucent": 0,
+          "bright": 0,
+          "fulgent": 0,
+          "brilliant": 0,
+          "resplendent": 0
+        }
+      }
+    },
+    "home": {
+      "npcs": [],
+      "aspects": []
+    },
+    "hex": {
+      "coordinates": "",
+      "locations": []
+    }
+  },
+  "Item": {
+    "types": ["condition", "item", "chip", "location"],
+    "templates": {
+      "tag": {
+        "description": "",
+        "level": "dim",
+        "color": "",
+        "uses": 1
+      }
+    },
+    "condition": {
+      "templates": ["tag"]
+    },
+    "item": {
+      "templates": ["tag"]
+    },
+    "chip": {
+      "color": "",
+      "level": "dim",
+      "description": ""
+    },
+    "location": {
+      "hex-coordinate": 0,
+      "npcs": [],
+      "aspects": [],
+      "resources": {
+        "consumables": "dim",
+        "materials": "dim",
+        "currency": "dim"
+      }
+    }
+  }
+}

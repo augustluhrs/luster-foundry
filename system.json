@@ -1,0 +1,38 @@
+{
+  "id": "luster",
+  "title": "Luster",
+  "description": "Foundry System for the Luster RPG",
+  "version": "0.2.1",
+  "authors": [{
+    "name": "August Luhrs",
+    "url": "augustluhrs.art",
+    "email": "augustluhrs@gmail.com",
+    "discord": "FatherDad#2692"
+  }],
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.288",
+    "maximum": 10
+  },
+  "esmodules": ["modules/luster.mjs"],
+  "styles": ["styles/luster.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 6,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resolve",
+  "secondaryTokenAttribute": "hits",
+  "initiative": "@purple",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md",
+  "bugs": "" 
+}
